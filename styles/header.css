@@ -1,0 +1,137 @@
+header {
+  border-radius: 5px 5px 0 0;
+  padding: 0vw 0vw 0 0vw;
+}
+
+
+.header-ctner {
+  background-color: rgb(24, 24, 24);
+  height: 100%;
+  border-radius: 0 0 5px 5px;
+  padding-top: 0;
+  position: relative;
+}
+
+
+.top-header {
+  background-color: rgb(24, 24, 24);
+  height: 3vw;
+  top: 0px;
+  border-radius: 5px 5px 0 0;
+  position: sticky;
+  z-index: 100;
+  padding: 1vw 0.5vw 0.5vw 1vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+h1 {
+  color: white;
+  margin: 0 0 0 0;
+  font-size: 2vw;
+  position: absolute;
+}
+
+
+nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+nav a {
+  color: white;
+  margin-right: 1vw;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+#language {
+  font-family: 'Courier New', Courier, monospace
+}
+
+#language:hover {
+  text-decoration: none;
+}
+
+#language span:hover {
+  text-decoration: underline;
+}
+
+
+.header-img-ctner img {
+  position: relative;
+  top: 4px;
+  width: 100%;
+  border-radius: 0 0 5px 5px;
+  max-height: 500px;
+  filter: opacity(50%);
+}
+
+
+.header-img-whole-ctner {
+  display: flex;
+  position: absolute;
+}
+
+.header-img-whole-ctner h2 {
+  margin: 0 0 0 0;
+  color: white;
+  font-family: Ubuntu;
+  white-space: nowrap;
+  margin-right: 1vw;
+}
+
+
+.header-img-info-ctner {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: white;
+}
+
+.header-img-btn-ctner {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.header-img-btn-ctner button {
+  background-color: white;
+  border-radius: 5px;
+  font-family: Ubuntu;
+  margin: 1.5vw 1vw 0 0;
+  border: none;
+  font-weight: 525;
+  cursor: pointer;
+}
+
+.header-img-btn-ctner button:hover {
+  background-color: rgb(219, 219, 219);
+  border: solid 1px black;
+}
+
+.header-sport-photo {
+  margin: 0 0 0 0;
+}
+
+.header-contact-me {
+  margin-top: 1vw;
+}
+
+
+
+.photography-banner {
+  display: flex;
+  justify-content: space-between;
+  margin: 2vw 1vw 0 1vw;
+}
+
+.photography-banner i {
+  font-size: 2vw;
+  
+}
