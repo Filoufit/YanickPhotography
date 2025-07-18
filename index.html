@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yanick Photography</title>
+
+  <link rel="stylesheet" href="styles/general.css">
+  <link rel="stylesheet" href="styles/media.css">
+  <link rel="stylesheet" href="styles/header.css">
+  <link rel="stylesheet" href="styles/preview.css">
+  <link rel="stylesheet" href="styles/about.css">
+  <link rel="stylesheet" href="styles/contact.css">
+  <link rel="stylesheet" href="styles/mediaMobile.css">
+
+  <script src="https://kit.fontawesome.com/79a06a300e.js"              crossorigin="anonymous"></script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Savate:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Libertinus+Mono&display=swap" rel="stylesheet">
+</head>
+<body onresize="resizeImg()">
+  <div id="author" class="author">
+    Par <a href="https://webstructure.space">Webstructure</a>
+  </div>
+  <div class="interior-body">
+    <div class="body1">
+      <div class="band1"></div>
+      <div class="side-img-left">
+        <img id="side-img1" class="side-img" src="side-img1.JPG">
+        <img id="side-img2" class="side-img" src="side-img2.JPG">
+        <img id="side-img3" class="side-img" src="side-img3.JPG">
+        <img id="side-img4" class="side-img" src="side-img4.JPG">
+        <img id="side-img5" class="side-img" src="side-img5.JPG">
+        <img id="side-img6" class="side-img" src="side-img6.jpg">
+      </div>
+    </div>
+
+    <div class="body2">
+      <div class="top-header">
+        <h1>Yanick Photography 📷</h1>
+
+        
+        <nav>
+          <a class="home" href="#author">Accueil</a>
+          <a class="home" href="#preview">Aperçu</a>
+          <a class="home" href="#about">À propos</a>
+          <a class="home" href="#before-contact-img">Contact</a>
+          <a id="language" class="home" href="eng.html">| <span>En</span></a>
+        </nav>
+      </div>
+      <header>
+        <div class="header-ctner">
+          <div class="header-img-ctner">
+            <img class="header-img" src="header/header-img.jpg">
+            <div class="header-img-whole-ctner">
+              <h2>Capturer des moments,<br>créer des souvenirs</h2>
+              <div class="header-img-info-ctner">
+                <p class="header-sport-photo">Photographe de sports🏈⚽</p>
+                <div class="header-img-btn-ctner">
+                  <button onclick="window.location.href = 'https://www.instagram.com/yanick._.photography';" id="preview">Contact</button>
+                  <p class="header-contact-me">Entrez en contact<br>avec moi!</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </header>
+
+      <div class="photography-banner">
+        <i class="fa-solid fa-camera"></i>
+        <i class="fa-solid fa-image"></i>
+        <i class="fa-solid fa-users-viewfinder"></i>
+        <i class="fa-solid fa-camera-retro"></i>
+        <i class="fa-solid fa-images"></i>
+        <i class="fa-solid fa-image-portrait"></i>
+
+        <i class="fa-solid fa-camera"></i>
+        <i class="fa-solid fa-image"></i>
+        <i class="fa-solid fa-users-viewfinder"></i>
+        <i class="fa-solid fa-camera-retro"></i>
+        <i class="fa-solid fa-images"></i>
+        <i class="fa-solid fa-image-portrait"></i>
+      </div>
+
+
+      <section id="preview-section" class="preview">
+        <div class="preview-nav-ctner">
+          <div class="preview-desc">
+            <h3>APERÇU</h3>
+            <p>Voici un avant-goût de mon portfolio, contactez-moi si vous désirez voir un plus grand échantillon de photos.</p>
+          </div>
+          <div class="preview-nav">
+            <button onclick="completePreview()" id="preview-btn0" class="preview-btn">Aperçu complet</button>
+            <button onclick="displayImg(1)" id="preview-btn1" class="preview-btn">1.</button>
+            <button onclick="displayImg(2)"  id="preview-btn2" class="preview-btn">2.</button>
+            <button onclick="displayImg(3)"  id="preview-btn3" class="preview-btn">3.</button>
+            <button onclick="displayImg(4)"  id="preview-btn4" class="preview-btn">4.</button>
+            <button onclick="displayImg(5)"  id="preview-btn5" class="preview-btn">5.</button>
+            <button onclick="displayImg(6)"  id="preview-btn6" class="preview-btn">6.</button>
+            <button onclick="displayImg(7)"  id="preview-btn7" class="preview-btn">7.</button>
+            <button onclick="displayImg(8)"  id="preview-btn8" class="preview-btn">8.</button>
+            <button id="about" onclick="displayImg(9)"  id="preview-btn9" class="preview-btn">9.</button>
+          </div>
+        </div> 
+        
+        <div class="preview-imgs-ctner">
+          <div class="preview-img-ctner">
+            <img id="preview-img1" src="side-img16.JPG">
+            <div class="imgNum">1.</div>
+          </div>
+          <div class="preview-img-ctner">
+            <img id="preview-img2" src="side-img13.JPG">
+            <div class="imgNum">2.</div>
+          </div>
+          <div class="preview-img-ctner">
+            <img id="preview-img3" src="side-img12.JPG">
+            <div class="imgNum">3.</div>
+          </div>
+          <div class="preview-img-ctner">
+            <img id="preview-img4" src="side-img7.JPG">
+            <div class="imgNum">4.</div>
+          </div>
+          <div class="preview-img-ctner">
+            <img id="preview-img5" src="side-img11.JPG">
+            <div class="imgNum">5.</div>
+          </div>
+          <div class="preview-img-ctner">
+            <img id="preview-img6" src="side-img2.JPG">
+            <div class="imgNum">6.</div>
+          </div>
+          <div class="preview-img-ctner">
+            <img id="preview-img7" src="side-img3.JPG">
+            <div class="imgNum">7.</div>
+          </div>
+          <div class="preview-img-ctner">
+            <img id="preview-img8" src="side-img6.JPG">
+            <div class="imgNum">8.</div>
+          </div>
+          <div class="preview-img-ctner">
+            <img id="preview-img9" src="side-img14.JPG">
+            <div class="imgNum">9.</div>
+          </div>
+        </div>
+      </section>
+      
+      <section id="about-section" class="about">
+        <div class="about-pic-ctner">
+          <img class="profile-pic" src="header/round-profile-pic.png">
+          <div class="fake-shadow"></div>
+        </div>
+        <div class="about-text-ctner">
+          <h3>À PROPOS DE MOI</h3>
+          <div class="seperator"></div>
+          <p>Bien que je sois nouveau dans l'univers de la photographie depuis 2024, je suis déterminé à offrir des images <span>hors du commun</span>, en explorant sans cesse de nouvelles techniques et angles. Je cherche toujours à plaire à mes clients en capturant des moments <span>authentiques</span> qui dépassent leurs attentes, tout en injectant <span>une touche personnelle et créative</span> dans chaque cliché.</p>
+          <button onclick="qualitiesRoll()" id="qualities-btn" class="qualities-btn">Passionné</button>
+        </div>
+      </section>
+
+      <div id="before-contact-img" class="before-contact-ctner">
+        <img class="before-contact-img" src="before-contact/before-contact.jpg">
+      </div>
+      
+
+      <section class="contact">
+        <div class="first-contact-ctner">
+          <div class="services-ctner">
+            <h4>Une Idée?</h4>
+            <h4>Une Question?</h4>
+          </div>
+          <img class="curly-bracket" src="before-contact/curly-bracket.png">
+          <div class="second-contact-ctner">
+            <h3>Contactez-moi sur Instagram!</h3>
+            <div>
+              <i class="fa-solid fa-arrow-right"></i>
+              <a href="https://www.instagram.com/yanick._.photography/">@yanick._.photography</a>
+            </div>
+          </div>
+        </div>
+        <div class="contact-seperator"></div>
+        <div class="back-top">
+          <a href="#author">Retour en haut</a>
+        </div>
+        <div class="contact-seperator2"></div>
+
+        <div class="credits">
+          <p class="realised-by">Site web réalisé par</p>
+          <a href="https://webstructure.space" class="author2">
+            <img src="before-contact/entire-w.png">
+            <p class="ebstructure">ebstructure</p>
+          </a>
+        </div>
+
+
+
+
+      </section>
+
+
+    </div>
+
+    <div class="body3">
+      <div class="band1"></div>
+      <div class="side-img-right">
+        <img id="side-img7" class="side-img" src="side-img7.JPG">
+        <img id="side-img8" class="side-img" src="side-img8.JPG">
+        <img id="side-img9" class="side-img" src="side-img9.JPG">
+        <img id="side-img10" class="side-img" src="side-img10.JPG">
+        <img id="side-img11" class="side-img" src="side-img11.JPG">
+      </div>
+    </div>
+  </div>
+  
+  <script src="index.js"></script>
+</body>
+</html>

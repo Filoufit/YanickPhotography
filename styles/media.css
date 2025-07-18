@@ -1,0 +1,390 @@
+@media screen and (min-width: 1200px) and (max-width: 1473px) {
+  .band1, .band2 {
+    display: inline-block;
+  }
+
+  .body1, .body3 {
+    padding: 1.5vw 0 1.5vw 0;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 1473px) {
+  .side-img {
+    display: inline-block;
+  }
+
+  .body2 {
+    min-width: 1000px;
+  }
+
+
+
+  /* .preview-nav-ctner {
+    width: 250px;
+    margin-right: 37px;
+  }
+
+  .preview-desc {
+    font-size: 19px;
+  }
+
+  .preview-btn {
+    font-size: 19px;
+    padding: 7px;
+  } */
+
+  .preview-imgs-ctner {
+    margin-top: 55px;
+  }
+
+  .preview-img-ctner {
+    max-height: 153px;
+  }
+
+  .preview-img-ctner img {
+    max-height: 150px;
+    margin: 3px 3px 0 0;
+  }
+
+  .imgNum {
+    height: 20px;
+    width: 20px;
+    bottom: 0px;
+    right: 3px;
+    font-size: 15px;
+  }
+
+  .preview-imgs-ctner {
+    padding-bottom: 75px;
+  }
+
+
+  .top-header, header, .preview, .about {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+
+}
+
+
+@media screen and (max-width: 1473px) {
+  .side-img {
+    display: none;
+  }
+
+  .body2 {
+    min-width: none;
+  }
+
+
+
+  .preview-imgs-ctner {
+    margin-top: 4vw;
+  }
+
+  .preview-img-ctner {
+    max-height: 14.25vw;
+  }
+  
+  .preview-img-ctner img {
+    max-height: 14vw;
+    margin: 0.25vw 0.25vw 0 0;
+  }
+
+  .imgNum {
+    height: 1.75vw;
+    width: 1.75vw;
+    bottom: 0px;
+    right: 0.25vw;
+    font-size: 1.5vw;
+  }
+
+  .preview-imgs-ctner {
+    padding-bottom: 5vw;
+  }
+
+  .top-header, header, .preview, .about {
+    margin-left: 1.5vw;
+    margin-right: 1.5vw;
+  }
+
+
+
+}
+
+@media screen and (min-width: 1153px) and (max-width: 1473px) {
+    .preview-img-ctner img {
+    max-height: 150px;
+    margin: 2.5px 2.5px 0 0;
+  }
+}
+
+
+@media screen and (min-width: 960px) {
+  nav a {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  nav a {
+    font-size: 2vw;
+  }
+}
+
+
+@media screen and (min-width: 1153px) {
+  .header-img-whole-ctner {
+    top: 360px;
+    left: 100px;
+  }
+
+  .header-img-whole-ctner h2 {
+    font-size: 40px;
+  }
+
+  .header-img-info-ctner {
+    font-size: 25px;
+  }
+
+  .header-img-btn-ctner button {
+    width: 100px;
+    height: 45px;
+    font-size: 17px;
+  }
+
+
+  .preview-nav-ctner {
+    width: 250px;
+    margin-right: 20px;
+  }
+
+  .preview-desc {
+    font-size: 19px;
+  }
+
+  .preview-btn {
+    font-size: 19px;
+    padding: 7px;
+  }
+
+
+
+  .about {
+    margin-top: 75px;
+    margin-bottom: 50px;
+  }
+
+  .profile-pic {
+    height: 315px;
+    margin-right: 50px;
+  }
+
+  .fake-shadow {
+    height: 315px;
+    width: 315px;
+    top: 30px;
+    left: 30px;
+  }
+
+  .about-text-ctner {
+    font-size: 19px;
+  }
+
+  .seperator {
+    height: 10px;
+    width: 45px;
+  }
+
+  .qualities-btn {
+    height: 70px;
+    border-width: 15px;
+    font-size: 22.5px;
+    letter-spacing: 6px;
+  }
+
+
+  .before-contact-img {
+    height: 200px;
+  }
+
+  .contact {
+    padding: 18px 0 0 0;
+  }
+
+  .first-contact-ctner {
+    gap: 33px;
+    margin-left: 113px;
+    margin-right: 113px;
+  }
+
+  .services-ctner {
+    font-size: 33px;
+  }
+
+  .curly-bracket {
+    width: 23px;
+  }
+
+  .second-contact-ctner {
+    font-size: 23px;
+  }
+
+  .contact-seperator {
+    height: 1px;
+    margin: 0 88px 0 88px;
+  }
+
+  .back-top {
+    height: 60px;
+    margin-top: 10px;
+    font-size: 25px;
+  }
+
+  .contact-seperator2 {
+    height: 1px;
+    margin-top: 10px;
+  }
+
+  .credits img {
+    margin-left: 6px;
+    height: 30px;
+  }
+
+  .credits {
+    font-size: 22px;
+  }
+
+}
+
+
+@media screen and (max-width: 1153px) /* and (min-width: 886px) */ {
+  .header-img-whole-ctner {
+    top: 31vw;
+    left: 8vw;
+  }
+
+  .header-img-whole-ctner h2 {
+    font-size: 4vw;
+  }
+
+  .header-img-info-ctner {
+    font-size: 2vw;
+  }
+
+  .header-img-btn-ctner button {
+    width: 9vw;
+    height: 4vw;
+    font-size: 1.5vw;
+  }
+
+
+  .preview-nav-ctner {
+    width: 17vw;
+    margin-right: 2.5vw;
+  }
+
+  .preview-desc {
+    font-size: 1.25vw;
+  }
+
+  .preview-btn {
+    font-size: 1.25vw;
+    padding: 0.5vw;
+  }
+
+
+
+
+  .about {
+    margin-top: 5vw;
+    margin-bottom: 7vw;
+  }
+  
+  .profile-pic {
+    height: 28vw;
+    margin-right: 4vw;
+  }
+
+  .fake-shadow {
+    height: 28vw;
+    width: 28vw;
+    top: 2.5vw;
+    left: 2.5vw;
+  }
+
+  .about-text-ctner {
+    font-size: 1.65vw;
+  }
+
+  .seperator {
+    height: 0.90vw;
+    width: 4vw;
+  }
+
+  .qualities-btn {
+    height: 6.15vw;
+    border-width: 1.35vw;
+    font-size: 2vw;
+    letter-spacing: 0.5vw;
+  }
+
+
+  .before-contact-img {
+    height: 17.25vw;
+  }
+
+
+  .contact {
+    padding: 1vw 0 0 0;
+  }
+
+  .first-contact-ctner {
+    gap: 3vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
+  }
+
+  .services-ctner {
+    font-size: 3vw;
+  }
+
+  .curly-bracket {
+    width: 2vw;
+  }
+
+  .second-contact-ctner {
+    font-size: 2vw;
+  }
+
+  .contact-seperator {
+    height: 0.1vw;
+    margin: 0 8vw 0 8vw;
+  }
+
+  .back-top {
+    height: 5vw;
+    margin-top: 1vw;
+    font-size: 2.25vw;
+  }
+
+  .contact-seperator2 {
+    height: 0.1vw;
+    margin-top: 1vw;
+  }
+
+  .credits img {
+    margin-left: 0.5vw;
+    height: 2.5vw;
+  }
+
+  .credits {
+    font-size: 2vw;
+  }
+}
+
+
+
+

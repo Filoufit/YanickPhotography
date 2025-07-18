@@ -1,0 +1,71 @@
+.about {
+  display: flex;
+}
+
+.about-pic-ctner {
+  position: relative;
+}
+
+.profile-pic {
+  position: relative;
+  flex: 1;
+  z-index: 5;
+}
+
+.fake-shadow {
+  position: absolute;
+  background-color: lightblue;
+  filter: opacity(50%);
+  border-radius: 200px;
+  z-index: 2;
+}
+
+
+.about-text-ctner {
+  display: flex;
+  flex-direction: column;
+  flex: 3;
+  align-items: flex-end;
+  text-align: justify;
+  color: lightslategray
+}
+
+.about-text-ctner p {
+  color: rgb(51, 53, 56);
+}
+
+.seperator {
+  background-color: lightskyblue;
+}
+
+.about-text-ctner button {
+  color: black;
+  font-family: Libertus;
+  background-color: rgb(158, 187, 221);
+  width: 100%;
+  border-right-style: solid;
+  border-right-color: rgb(142, 168, 197);
+  border-left-style: solid;
+  border-left-color: rgb(169, 202, 236);
+  border-top-style: solid;
+  border-top-color: rgb(173, 208, 243);
+  border-bottom-style: solid;
+  border-bottom-color: rgb(136, 162, 190);
+  cursor: pointer;
+}
+
+.about-text-ctner button:hover {
+  background-color: rgb(158, 187, 221);
+  border-top-style: solid;
+  border-top-color: rgb(142, 168, 197);
+  border-right-style: solid;
+  border-right-color: rgb(169, 202, 236);
+  border-bottom-style: solid;
+  border-bottom-color: rgb(173, 208, 243);
+  border-left-style: solid;
+  border-left-color: rgb(136, 162, 190);
+}
+
+.about-text-ctner p span {
+  text-decoration: underline;
+}
