@@ -6,12 +6,12 @@
 
 
   .top-header h1 {
-    font-size: 3vw;
-    height: 5vw;
+    font-size: 5vw;
+    height: 9vw;
   }
 
   nav a {
-    font-size: 2.3vw;
+    font-size: 4vw;
   }
 
   .header-img-whole-ctner {
@@ -31,6 +31,7 @@
     font-size: 3vw;
     padding: 0 0 0 0;
     width: 15vw;
+    margin-top: 1vw
   }
 
   .photography-banner i {
