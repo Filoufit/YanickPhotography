@@ -386,5 +386,8 @@
 }
 
 
-
+@media screen and (min-width: 886px) {
+  .top-header {
+    height: 3vw;
+}
 
