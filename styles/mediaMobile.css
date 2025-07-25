@@ -4,14 +4,24 @@
     font-size: 3vw;
   }
 
+  .top-header {
+    justify-content: center;
+
 
   .top-header h1 {
     font-size: 3vw;
     height: 5vw;
+    flex: 5;
   }
 
   nav a {
     font-size: 2.3vw;
+    display: none;
+  }
+
+  #language {
+    display: inline-block;
+    flex: 1;
   }
 
   .header-img-whole-ctner {
