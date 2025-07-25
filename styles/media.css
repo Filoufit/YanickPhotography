@@ -387,7 +387,7 @@
 
 
 @media screen and (min-width: 886px) {
-  .top-header h1 {
+  h1 {
     font-size: 2vw;
   }
 }
